@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Willow Ridge Bakery",
+            "address": "12 Main St, Springfield, OR 97401",
+            "phone": "(541) 555-0101",
+            "website": "https://willowridge.com",
+            "image": "willowridge.webp",
+            "level": 3,
+            "description": "Artisan breads, pastries, custom cakes."
+        },
+        {
+            "name": "Cedar Valley Books",
+            "address": "45 Maple Ave, Springfield, OR 97401",
+            "phone": "(541) 555-0202",
+            "website": "https://cedarvalleybooks.com",
+            "image": "cedarvalley.webp",
+            "level": 2,
+            "description": "Independent bookstore and community events."
+        },
+        {
+            "name": "Beacon Tech Solutions",
+            "address": "900 River Rd, Springfield, OR 97401",
+            "phone": "(541) 555-0303",
+            "website": "https://beacontech.com",
+            "image": "beacontech.webp",
+            "level": 3,
+            "description": "IT consulting, cloud migrations, and support."
+        },
+        {
+            "name": "Greenway Landscaping",
+            "address": "210 Oak Ln, Springfield, OR 97401",
+            "phone": "(541) 555-0404",
+            "website": "https://greenway.com",
+            "image": "greenway.webp",
+            "level": 1,
+            "description": "Residential and commercial landscape services."
+        },
+        {
+            "name": "Lighthouse Yoga Studio",
+            "address": "77 Harbor St, Springfield, OR 97401",
+            "phone": "(541) 555-0505",
+            "website": "https://lighthouseyoga.com",
+            "image": "lighthouse.webp",
+            "level": 2,
+            "description": "Yoga classes, workshops, and teacher training."
+        },
+        {
+            "name": "Northpoint Insurance",
+            "address": "300 Commerce Blvd, Springfield, OR 97401",
+            "phone": "(541) 555-0606",
+            "website": "https://northpoint.com",
+            "image": "northpoint.webp",
+            "level": 1,
+            "description": "Personal and commercial insurance brokers."
+        },
+        {
+            "name": "Solaris Cafe",
+            "address": "5 Market Pl, Springfield, OR 97401",
+            "phone": "(541) 555-0707",
+            "website": "https://solaris.com",
+            "image": "solaris.webp",
+            "level": 2,
+            "description": "Coffee, brunch, and live acoustic nights."
+        }
+    ]
+}
