@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Springfield Chamber of Commerce Directory | Kyle Strasdas | WDD 231</title>
     <meta name="description"
-        content="Kyle Strasdas - Chamber of Commerce project for 'WDD 231 - Web Frontend Development I' course.">
+        content="Kyle Strasdas - Directory page for Chamber of Commerce project for 'WDD 231 - Web Frontend Development I' course.">
     <meta name="author" content="Kyle Strasdas">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/date.js" defer></script>
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Springfield Chamber of Commerce Directory">
+    <meta property="og:description" content="Discover local businesses in and around Springfield, OR - Directory">
+    <meta property="og:image" content="https://wildstar7.github.io/wdd231/chamber/images/full-logo.webp" />
+    <meta property="og:url" content="https://wildstar7.github.io/wdd231/chamber/directory.html">
 </head>
 
 <body>
@@ -38,7 +43,7 @@
     </header>
 
     <main>
-
+        <div id="business-cards"></div>
     </main>
 
     <footer>
@@ -57,6 +62,8 @@
         <div class="modified-info">
             <p>WDD231 Class Project</p>
             <p>Kyle Strasdas</p>
+            <p>&copy; <span id="currentyear"></span> Springfield Chamber of Commerce</p>
+            <p id="lastModified">Last Modification: 09/05/2025 18:54:48</p>
         </div>
     </footer>
 </body>
