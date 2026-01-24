@@ -1,0 +1,26 @@
+:root {
+    --heading-font: 'Montserrat', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+    --accent-font: 'Lato', sans-serif;
+
+    --primary-color: #001F3F;
+    --secondary-color: #C0C0C0;
+    --background-color: #FFFFFF;
+}
+
+.hamburger {
+    display: block;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;;
+}
+
+.hamburger-line {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: var(--background-color);
+    transition: all 0.3s ease;
+}

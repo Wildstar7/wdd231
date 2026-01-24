@@ -1,0 +1,21 @@
+@media only screen and (min-width: 48em) {
+    .hero {
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 40em) {
+    .hamburger {
+        display: none;
+    }
+
+    .header-nav, .main-nav.show {
+        display: block;
+        position: relative;
+    }
+
+    .header-nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+}

@@ -8,9 +8,11 @@
     <meta name="description"
         content="Kyle Strasdas - Directory page for Chamber of Commerce project for 'WDD 231 - Web Frontend Development I' course.">
     <meta name="author" content="Kyle Strasdas">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/date.js" defer></script>
+    <script src="scripts/script.js" defer></script>
     <link rel="icon" href="images/favicon.ico">
     <meta property="og:title" content="Springfield Chamber of Commerce Directory">
     <meta property="og:description" content="Discover local businesses in and around Springfield, OR - Directory">
@@ -37,6 +39,11 @@
                 </ul>
             </nav>
         </div>
+        <button class="hamburger">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
         <div class="hero">
             <img src="images/placeholder.webp" alt="Hero image">
         </div>
@@ -50,8 +57,8 @@
         <div class="contact-info">
             <h3>Springfield Chamber of Commerce</h3>
             <p>123 Centennial Blvd</p>
-            <p>Springfield OR 97477</p>
-            <p>info@springfieldcc.org</p>
+            <p>Springfield OR  97477</p>
+            <p><a href="mailto:info@springfieldcc.org">info@springfieldcc.org</a></p>
             <p>(541) 123-1234</p>
         </div>
         <div class="socials">
@@ -63,7 +70,7 @@
             <p>WDD231 Class Project</p>
             <p>Kyle Strasdas</p>
             <p>&copy; <span id="currentyear"></span> Springfield Chamber of Commerce</p>
-            <p id="lastModified">Last Modification: 09/05/2025 18:54:48</p>
+            <p id="lastModified"></p>
         </div>
     </footer>
 </body>
