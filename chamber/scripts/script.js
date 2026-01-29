@@ -27,6 +27,16 @@
 // }
 
 
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.querySelector('.hamburger');
+    const mainNav = document.querySelector('.header-nav');
+
+    hamburger.addEventListener('click', () => {
+        console.log('Hamburger clicked');
+        mainNav.classList.toggle('show');
+    });
+});
+
 
 const businesses = document.querySelector('#business-cards');
 let businessData = [];
